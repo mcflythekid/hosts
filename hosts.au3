@@ -5,7 +5,7 @@
 #include <FileConstants.au3>
 
 Global Const $HOSTS = 'C:\Windows\System32\drivers\etc\hosts'
-Global Const $NPP = 'C:\Program Files (x86)\Notepad++\notepad++.exe'
+Global Const $NPP = 'C:\Program Files (x86)\Notepad++\notepad++.exe -nosession -multiInst'
 Global Const $DESTINATION ='C:\Sync\main\hosts.txt'
 
 RunWait($NPP & ' ' & $HOSTS)
